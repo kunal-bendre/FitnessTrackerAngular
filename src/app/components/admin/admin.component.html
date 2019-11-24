@@ -1,0 +1,16 @@
+<div class="container">
+    <table class="table table-bordered table-inverse" style="align-self: auto;">
+      <tr>
+        <th>Activity Name</th>
+        <th>Time Done</th>
+      </tr>
+      <tr *ngFor="let activity of activities">
+        <td>
+          {{activity.name}}
+        </td>
+        <td>
+          {{activity.time}}
+        </td>
+      </tr>
+    </table>
+  </div>
