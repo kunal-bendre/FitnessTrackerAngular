@@ -1,3 +1,6 @@
 {
-    "git.alwaysShowStagedChangesResourceGroup": true
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.scanRepositories": [
+        "https://github.com/kunal-bendre/FitnessTrackerAngular.git"
+    ]
 }
